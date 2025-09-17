@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cisco NetAcad - Networking Excellence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <!-- Masthead Section -->
+    <section id="masthead" class="masthead">
+        <div class="masthead-overlay"></div>
+        <div class="masthead-content">
+            <div class="container">
+                <h1 class="masthead-title">Cisco NetAcad for BPC Digital</h1>
+                <p class="masthead-subtitle">Join millions of students worldwide on Cisco's premier training platform, brought to you through Bournemouth and Poole College</p>
+                <button class="learn-more-btn" onclick="scrollToCourses()">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Parallax Section -->
+    <section id="courses" class="courses-section parallax-section">
+        <div class="parallax-bg"></div>
+        <div class="container">
+            <h2 class="section-title">Courses Available</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-card-content">
+                        <div class="course-image">
+                            <img src="cyber.png" alt="Cyber Essentials Course">
+                        </div>
+                        <h3>Cyber Security Essentials</h3>
+                        <p>Learn the basics of keeping data and systems safe. This course covers the foundations of cybersecurity, including how attacks happen, how to defend against them, and why security matters in every digital job.</p>
+                    </div>
+                    <div class="course-card-bottom">
+                        <div class="course-duration">Duration: 24 weeks</div>
+                        <button class="course-btn" onclick="scrollToSection('cyber-essentials')">View Details</button>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-card-content">
+                        <div class="course-image">
+                            <img src="networking.png" alt="Networking Essentials Course">
+                        </div>
+                        <h3>Networking Essentials</h3>
+                        <p>Ever wondered how the internet actually works? This course breaks down the building blocks of networks, from cables and routers to wireless and cloud connections.</p>
+                    </div>
+                    <div class="course-card-bottom">
+                        <div class="course-duration">Duration: 24 weeks</div>
+                        <button class="course-btn" onclick="scrollToSection('networking-essentials')">View Details</button>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-card-content">
+                        <div class="course-image">
+                            <img src="itsup.png" alt="IT Support Essentials Course">
+                        </div>
+                        <h3>IT Support Essentials</h3>
+                        <p>Get to grips with the skills needed to help people with their tech. This course introduces troubleshooting, problem solving, and customer support – the day-to-day reality of IT helpdesk work.</p>
+                    </div>
+                    <div class="course-card-bottom">
+                        <div class="course-duration">Duration: 19 weeks</div>
+                        <button class="course-btn" onclick="scrollToSection('it-support-essentials')">View Details</button>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-card-content">
+                        <div class="course-image">
+                            <img src="itess.png" alt="IT Essentials 8 Course">
+                        </div>
+                        <h3>IT Essentials</h3>
+                        <p>This course gives you a broad introduction to computer hardware, software, and operating systems. You'll learn how PCs are built, how they run, and how to keep them working.</p>
+                    </div>
+                    <div class="course-card-bottom">
+                        <div class="course-duration">Duration: 24 weeks</div>
+                        <button class="course-btn" onclick="scrollToSection('it-essentials-8')">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Individual Course Sections -->
+    <section id="cyber-essentials" class="course-detail-section">
+        <div class="container">
+            <h2 class="course-detail-title">🔒 Cyber Security Essentials</h2>
+            <div class="course-detail-content">
+                <div class="course-detail-image">
+                    <img src="cyber.png" alt="Cyber Essentials Course">
+                </div>
+                <div class="course-detail-main-content">
+                    <div class="course-detail-inner">
+                        <div class="course-detail-info">
+                            <h3>Course Overview</h3>
+                            <p>Learn the basics of keeping data and systems safe. This course covers the foundations of cybersecurity, including how attacks happen, how to defend against them, and why security matters in every digital job. Great for anyone interested in the world of cyber.</p>
+                            
+                            <h3>What You'll Learn</h3>
+                            <ul>
+                                <li>Cybersecurity fundamentals and terminology</li>
+                                <li>Understanding common cyber attacks and threats</li>
+                                <li>Basic security measures and best practices</li>
+                                <li>How to protect personal and business data</li>
+                                <li>Why cybersecurity is crucial in all digital roles</li>
+                            </ul>
+                        </div>
+                        <div class="course-detail-specs">
+                            <div class="spec-item">
+                                <strong>Duration:</strong> 24 weeks
+                            </div>
+                            <div class="spec-item">
+                                <strong>Level:</strong> Beginner
+                            </div>
+                            <div class="spec-item">
+                                <strong>Prerequisites:</strong> An interest and enthusiasm for learning cybersecurity.
+                            </div>
+                            <div class="spec-item">
+                                <strong>Certificate:</strong> Cyber Essentials Certificate
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="networking-essentials" class="course-detail-section">
+        <div class="container">
+            <h2 class="course-detail-title">🌐 Networking Essentials</h2>
+            <div class="course-detail-content reverse">
+                <div class="course-detail-image">
+                    <img src="networking.png" alt="Networking Essentials Course">
+                </div>
+                <div class="course-detail-main-content">
+                    <div class="course-detail-inner">
+                        <div class="course-detail-info">
+                            <h3>Course Overview</h3>
+                            <p>Ever wondered how the internet actually works? This course breaks down the building blocks of networks, from cables and routers to wireless and cloud connections. Perfect for anyone curious about IT infrastructure or thinking about networking careers.</p>
+                            
+                            <h3>What You'll Learn</h3>
+                            <ul>
+                                <li>How the internet really works</li>
+                                <li>Understanding cables, routers, and switches</li>
+                                <li>Wireless networking and Wi-Fi technology</li>
+                                <li>Cloud connections and modern networks</li>
+                                <li>Building blocks of IT infrastructure</li>
+                            </ul>
+                        </div>
+                        <div class="course-detail-specs">
+                            <div class="spec-item">
+                                <strong>Duration:</strong> 8 weeks
+                            </div>
+                            <div class="spec-item">
+                                <strong>Level:</strong> Beginner
+                            </div>
+                            <div class="spec-item">
+                                <strong>Prerequisites:</strong> An interest and enthusiasm for learning about networking.
+                            </div>
+                            <div class="spec-item">
+                                <strong>Certificate:</strong> Networking Essentials Certificate
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="it-support-essentials" class="course-detail-section">
+        <div class="container">
+            <h2 class="course-detail-title">🛠️ IT Support Essentials</h2>
+            <div class="course-detail-content">
+                <div class="course-detail-image">
+                    <img src="itsup.png" alt="IT Support Essentials Course">
+                </div>
+                <div class="course-detail-main-content">
+                    <div class="course-detail-inner">
+                        <div class="course-detail-info">
+                            <h3>Course Overview</h3>
+                            <p>Get to grips with the skills needed to help people with their tech. This course introduces troubleshooting, problem solving, and customer support – the day-to-day reality of IT helpdesk work. A solid choice if you like fixing things and helping others.</p>
+                            
+                            <h3>What You'll Learn</h3>
+                            <ul>
+                                <li>Troubleshooting techniques and problem solving</li>
+                                <li>Customer support and communication skills</li>
+                                <li>Common tech problems and their solutions</li>
+                                <li>Help desk operations and workflow</li>
+                                <li>Building confidence in fixing tech issues</li>
+                            </ul>
+                        </div>
+                        <div class="course-detail-specs">
+                            <div class="spec-item">
+                                <strong>Duration:</strong> 19 weeks
+                            </div>
+                            <div class="spec-item">
+                                <strong>Level:</strong> Beginner
+                            </div>
+                            <div class="spec-item">
+                                <strong>Prerequisites:</strong> A basic understanding of computer hardware and software.
+                            </div>
+                            <div class="spec-item">
+                                <strong>Certificate:</strong> IT Support Specialist
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="it-essentials-8" class="course-detail-section">
+        <div class="container">
+            <h2 class="course-detail-title">💻 IT Essentials</h2>
+            <div class="course-detail-content reverse">
+                <div class="course-detail-image">
+                    <img src="itess.png" alt="IT Essentials 8 Course">
+                </div>
+                <div class="course-detail-main-content">
+                    <div class="course-detail-inner">
+                        <div class="course-detail-info">
+                            <h3>Course Overview</h3>
+                            <p>This course gives you a broad introduction to computer hardware, software, and operating systems. You'll learn how PCs are built, how they run, and how to keep them working. A great all-rounder for anyone starting their IT journey.</p>
+                            
+                            <h3>What You'll Learn</h3>
+                            <ul>
+                                <li>How computers are built and work</li>
+                                <li>Computer hardware components and assembly</li>
+                                <li>Operating systems and how they run</li>
+                                <li>Keeping computers running smoothly</li>
+                                <li>Essential skills for starting in IT</li>
+                            </ul>
+                        </div>
+                        <div class="course-detail-specs">
+                            <div class="spec-item">
+                                <strong>Duration:</strong> 24 weeks
+                            </div>
+                            <div class="spec-item">
+                                <strong>Level:</strong> Intermediate
+                            </div>
+                            <div class="spec-item">
+                                <strong>Prerequisites:</strong> A knowledge and understanding of computer hardware and software.
+                            </div>
+                            <div class="spec-item">
+                                <strong>Certificate:</strong> IT Essentials Certificate
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terms and Conditions Section -->
+    <section id="terms" class="terms-section bg-info">
+        <div class="container">
+            <h2 class="section-title">Terms and Conditions</h2>
+            <h3 class="section-subtitle">Please read these terms and conditions carefully before enrolling on any course.</h3><br/>
+            <div class="terms-content">
+                <div class="terms-column">
+                    <h3>Course Access</h3>
+                    <ul>
+                        <li>100% Free to Bournemouth and Poole College Students.</li>
+                        <li>24/7 access to course materials</li>
+                        <li>Access valid until the end of the academic year.</li>
+                        <li>Mobile devices whist supported, will not run all of the learning activities.</li>
+                        <li>Admin rights to be able to install and run some software.</li>
+                    </ul>
+                    <h3>Enrollment Requirements</h3>
+                    <ul>
+                        <li>Must be 16 years or older</li>
+                        <li>Basic computer literacy required</li>
+                        <li>Reliable internet connection</li>
+                        <li>Commitment to course completion</li>
+                        <li>Be an enrolled student at Bournemouth and Poole College, using your college email address. - Other email addresses will be suspended.</li>
+                    </ul>
+                    <h3>Certification</h3>
+                    <ul>
+                        <li>Certificates are issued upon successful completion</li>
+                        <li>Industry-recognised credentials</li>
+                        <li>Will only be issued on completion of the final exam</li>
+                        <li>Credly badges and digital certificate supplied.</li>
+                        <li>No discussions will be entered into with regards to grades.</li>
+                    </ul>
+                </div>
+                
+                <div class="terms-column">
+                    <h3>Conditions</h3>
+                    <ul>
+                        <li>Learning must be completed in your own time.</li>
+                        <li>The courses are provided as is, by Cisco Netacad. </li>
+                        <li>By enrolling, you agree that this is a 100% remote, 100% self-supporting experience. </li>
+                        <li>You will follow the completion requirements described within each course - it is your responsibility to read these with care</li>
+                        <li>Pestering tutors is expressly prohibited, and all participents acknowledge normal college activites take a priority.</li>
+                    </ul>
+
+                    <h3>Course Completion</h3>
+                    To complete all courses, you MUST:
+                    <ul>
+                        <li>Attempt all chapters/modules, a passing grade is not essential, but 75% of modules should be passed before attempting the exam.</li>
+                        <li>Complete the course feedback</li>
+                        <li>Pass the final exam with a grade of 70%</li>
+                        <li>Adhere to the code of conduct and academic integrity policies</li>
+                    </ul>
+                    
+                    <h3>Exams</h3>
+                    <ul>
+                        <li>Upon completion of the course, you will be eligible to sit the examination. </li>
+                        <li>These will be conducted with examination conditions</li>
+                        <li>Taken outside of lesson time and avaliable most evenings 4-5 pm</li>
+                        <li>Extra time and screen readers are the only additional arrangements available. - Proof must be submitted that these are required. </li>
+                        <li>All exams must be booked in advance through your college instructor.</li>
+                        <li>All exams must be completed before the 19th June 2026</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="terms-footer">
+                <p><strong>External Content</strong> All courses are provided through Cisco NetAcad. College staff will not be held responsible for the content or performance of the platform.</p>
+                <p><strong>Accounts</strong> By signing into Cisco NetAcad, you agree to their terms and conditions. Also understand that they manage your account and not Bournemouth and Poole College.</p>
+                <p class="terms-update">Last updated: September 17, 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Cisco Networking Academy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
