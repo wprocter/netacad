@@ -704,3 +704,7 @@ section:has(.apply-now-btn) {
         padding: 1.5rem;
     }
 }
+hr {
+    border: 1px solid #eee;
+    margin: 2rem 0;
+}
