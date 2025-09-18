@@ -14,6 +14,14 @@ function scrollToSection(sectionId) {
     });
 }
 
+// Smooth scrolling to apply section
+function scrollToApply() {
+    document.getElementById('terms').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    });
+}
+
 // Parallax effect for courses section
 window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
